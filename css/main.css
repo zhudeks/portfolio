@@ -1,0 +1,49 @@
+/* ----- FOR GENERAL ELEMENTS ----- */
+
+body {
+    box-sizing: border-box;
+    justify-content:space-between;
+    font-family: 'Fredoka', sans-serif;
+    background-color: azure;
+}
+
+*,
+:after,
+:before {
+    padding: 0;
+    margin: 0;
+}
+
+/* ----- HEADER ----- */
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container {
+    margin-bottom: 100px;
+}
+
+.container img {
+    margin: 0 auto;
+
+}
+
+/* ----- MAIN ----- */
+
+.container a {
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+
+.container ol li {
+    marker: none;
+    list-style: none;
+}
+
+
+/* ----- FOOTER ----- */
